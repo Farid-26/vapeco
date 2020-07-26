@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VapEco</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="Pics/logoo.png"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <div class="main-menu" onclick="menutoggle()">
+            <div class="menu">
+                <input type="checkbox" name="" id="">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Life<br>A New Chance!</h1>
+            <p>We all agree that e-cigarettes are significantly less harmful than smoking.<br>E-cigarettes are about as safe as drinking coffee.</p>
+            <a href="" class="btn">Explore now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="Pics/vape.png">
+            <img src="Pics/eliquid-cat.png">
+        </div>
+    </div>    
+  </div>
+</div>
+    
+<!----------------- featured categories ---------------->
+    <div class="categories">
+        <div class="small-container">
+           <div class="row">
+             <div class="col-3">
+                <img src="Pics/elektrik-atau-vape.jpg">
+             </div>
+             <div class="col-3">
+                <img src="Pics/vape-corps-article.jpg">
+             </div>
+             <div class="col-3">
+                <img src="Pics/t_5e2ab1c012b37.jpg">
+             </div>
+           </div>
+        </div>
+    </div>
+<!--------------- featured products ------------------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Pics/742cdd1.png">
+                <h4>Juul Vape</h4>
+                <p>280.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/stick.png">
+                <h4>Vaporesso Stick</h4>
+                <p>480.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/VAPO-LUXE-KIT-2.jpg">
+                <h4>Vaporesso Luxe</h4>
+                <p>1200.00 Dhs</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Pics/vaporesso-gen-kit.png">
+                <h4>Vaporesso Gen</h4>
+                <p>1100.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/Vaptio-p1.png">
+                <h4>Vaptio P1 Mini Kit</h4>
+                <p>650.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/vaporesso-target-mini-2.jpg">
+                <h4>Vaporesso Target Mini 2</h4>
+                <p>950.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/vaporesso.png">
+                <h4>Vaporesso Luxe</h4>
+                <p>1200.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/c4-zero_6_.png">
+                <h4>Vaporesso Zéro</h4>
+                <p>400.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/vaporesso-revenger-x-kit-colours.jpg">
+                <h4>Vaporesso Revenger</h4>
+                <p>1300.00 Dhs</p>
+            </div>
+            <div class="col-4">
+                <img src="Pics/images.png">
+                <h4>Vaporesso Sky Solo</h4>
+                <p>600.00 Dhs</p>
+            </div>
+        </div>
+<!---------------------- offer ----------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Pics/Juul-vape.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on VapEco</p>
+                    <h1>Juul</h1>
+                    <small>Unique in its kind, easy to use, available in many flavors and without a lingering smell: JUUL is establishing itself as the alternative to cigarettes.</small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------ js for toggle menu ------------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    
+    
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
